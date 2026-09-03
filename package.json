@@ -1,0 +1,20 @@
+{
+  "name": "bd-docker",
+  "version": "1.0.0",
+  "description": "node con docker",
+  "license": "MIT",
+  "author": "Junior",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "g": "^2.0.1",
+    "nodemon": "^3.1.14"
+  },
+  "devDependencies": {
+    "morgan": "^1.12.0"
+  }
+}
