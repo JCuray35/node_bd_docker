@@ -1,11 +1,16 @@
 services:
   backend_node:
     container_name: backend_node
-    build: .
+    build: 
+      context: ./
+      dockerfile: Dockerfile 
     ports:
       - "81:3000"
+    environment:
+      PORT: ${PORT}
     depends_on:
       - base_datos_mysql
+    restart: unless-stopped
       
   base_datos_mysql:
     container_name: base_datos_mysql
