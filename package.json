@@ -12,7 +12,9 @@
   "dependencies": {
     "express": "^5.2.1",
     "g": "^2.0.1",
-    "nodemon": "^3.1.14"
+    "mysql2": "^3.24.4",
+    "nodemon": "^3.1.14",
+    "sequelize": "^6.37.8"
   },
   "devDependencies": {
     "morgan": "^1.12.0"
